@@ -1,5 +1,6 @@
-This is a implementation of the fast inverse square root function from quake 3
+This is a implementation of the fast inverse square root function from quake 3.  
 It can be up to three times as fast as using the `.sqrt()` method on a float32  
+Keep in mind that fast inverse square root is only accurate within a one percent margin of error  
 
 Here's the original implementation:
 ```c
